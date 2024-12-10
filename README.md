@@ -36,4 +36,40 @@
 - Functions for generating front, side, and top view images from text descriptions using the respective generator models.
 
 ### Text To Image Generation.ipynb
-###
+
+#### Setup:
+
+- Google Drive is mounted.
+- Paths for annotations and rendered images are specified.
+- Image transformations are defined.
+
+### Text Embeddings:
+
+- Pre-trained BERT tokenizer and model are initialized.
+- Helper function to extract embeddings from text.
+
+### Model Definition:
+
+- Custom self-attention module for generators is implemented.
+- Separate models for front, side, and top views are defined and initialized.
+
+### Model Loading:
+
+- Pre-trained generator models for each view are loaded from checkpoint files.
+
+### Image Generation:
+
+- Functions for generating front, side, and top view images from text descriptions using the respective generator models.
+
+
+## Model Architecture
+### The GAN consists of:
+
+- **Generators:** Separate view-specific generators conditioned on text embeddings and noise vectors.
+- **Discriminators:** Independent discriminators for each view with spectral normalization.
+- **Self-Attention:** Incorporated in both generators and discriminators to capture global dependencies.
+
+### Loss functions:
+
+- Wasserstein Loss with Gradient Penalty (WGAN-GP): Stabilizes training.
+- Alignment Loss: Ensures semantic coherence across views.
