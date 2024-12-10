@@ -10,8 +10,8 @@
 -  **Lightweight 2D Approximation:** Provides a scalable alternative to 3D modeling for visualization and prototyping.
 
 ## Structure
-### 📁 main/ 
-### Model Training.ipynb
+### 📁 main
+### / Model Training.ipynb
 
 #### Setup:
 - Google Drive is mounted.
@@ -35,7 +35,7 @@
 
 - Functions for generating front, side, and top view images from text descriptions using the respective generator models.
 
-### Text To Image Generation.ipynb
+### / Text To Image Generation.ipynb
 
 #### Setup:
 
