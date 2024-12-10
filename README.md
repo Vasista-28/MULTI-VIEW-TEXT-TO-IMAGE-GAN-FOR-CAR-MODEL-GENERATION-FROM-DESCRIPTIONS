@@ -11,8 +11,11 @@
 
 ## Repository Structure
 Multi-view-Text-to-Image-GAN-for-Car-Model-Generation/
+
 ├── Model Training.ipynb        # Notebook for training the GAN
+
 ├── Text To Image Generation.ipynb  # Notebook for inference/generation of images
+
 ├── README.md                   # Project description and usage instructions
 
 
