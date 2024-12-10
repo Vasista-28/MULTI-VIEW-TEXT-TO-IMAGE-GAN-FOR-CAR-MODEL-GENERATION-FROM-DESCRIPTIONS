@@ -9,9 +9,14 @@
 -  **Semantic Understanding:** Utilizes BERT embeddings for accurate text-to-image mapping.
 -  **Lightweight 2D Approximation:** Provides a scalable alternative to 3D modeling for visualization and prototyping.
 
-## Structure
-### 📁 main
-### / Model Training.ipynb
+## Repository Structure
+Multi-view-Text-to-Image-GAN-for-Car-Model-Generation/
+├── Model Training.ipynb        # Notebook for training the GAN
+├── Text To Image Generation.ipynb  # Notebook for inference/generation of images
+├── README.md                   # Project description and usage instructions
+
+
+### Model Training (Model Training.ipynb)
 
 #### Setup:
 - Google Drive is mounted.
@@ -35,7 +40,7 @@
 
 - Functions for generating front, side, and top view images from text descriptions using the respective generator models.
 
-### / Text To Image Generation.ipynb
+### Image Generation (Text To Image Generation.ipynb)
 
 #### Setup:
 
