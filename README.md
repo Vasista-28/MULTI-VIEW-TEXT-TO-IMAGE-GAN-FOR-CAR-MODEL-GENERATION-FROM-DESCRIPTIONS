@@ -10,29 +10,29 @@
 -  **Lightweight 2D Approximation:** Provides a scalable alternative to 3D modeling for visualization and prototyping.
 
 ## Structure
-#### 📁 main/ 
-##### Model Training.ipynb
+### 📁 main/ 
+### Model Training.ipynb
 
-- **Setup:**
-##### Google Drive is mounted.
-##### Paths for annotations and rendered images are specified.
-##### Image transformations are defined.
+### Setup:
+- Google Drive is mounted.
+- Paths for annotations and rendered images are specified.
+- Image transformations are defined.
 
-- **Text Embeddings:**
-##### Pre-trained BERT tokenizer and model are initialized.
-##### Helper function to extract embeddings from text.
+### **Text Embeddings:**
+- Pre-trained BERT tokenizer and model are initialized.
+- Helper function to extract embeddings from text.
 
-- **Model Definition:**
+### **Model Definition:**
 
-##### Custom self-attention module for generators is implemented.
-##### Separate models for front, side, and top views are defined and initialized.
+- Custom self-attention module for generators is implemented.
+- Separate models for front, side, and top views are defined and initialized.
 
-- **Model Loading:**
+### **Model Loading:**
 
-##### Pre-trained generator models for each view are loaded from checkpoint files.
+- Pre-trained generator models for each view are loaded from checkpoint files.
 
-- **Image Generation:**
+### **Image Generation:**
 
-##### Functions for generating front, side, and top view images from text descriptions using the respective generator models.
+- Functions for generating front, side, and top view images from text descriptions using the respective generator models.
 
 ##### Text To Image Generation.ipynb
