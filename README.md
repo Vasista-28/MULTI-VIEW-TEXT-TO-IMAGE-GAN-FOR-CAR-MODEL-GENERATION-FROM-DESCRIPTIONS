@@ -73,3 +73,15 @@
 
 - Wasserstein Loss with Gradient Penalty (WGAN-GP): Stabilizes training.
 - Alignment Loss: Ensures semantic coherence across views.
+
+## Limitations
+- Resolution: Currently limited to 128x128 pixels.
+- Training Data: Performance depends on the diversity and size of the dataset.
+- Computational Requirements: Training requires significant GPU resources.
+
+## Authors
+- Naga Venkata Vignesh Reddy Upputuri (nupputuri@uh.edu)
+- Vasista Tummala (vtummala3@uh.edu)
+#### University of Houston
+
+
